@@ -1,0 +1,65 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  background-image: url(soap.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.close {
+  position: relative;
+  top: -4.5em;
+  left: 17em;
+  font-size: small;
+  cursor: pointer;
+}
+
+.close.closed {
+  display: none;
+}
+
+button {
+  margin: 2rem;
+  background-color: blanchedalmond;
+  padding: 0.9rem 1rem;
+  box-shadow: 0 0 12px 8px rgb(0, 0, 0, 0.3);
+  border: none;
+  border-radius: 5em;
+  cursor: pointer;
+}
+
+.modal {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgb(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  background-color: antiquewhite;
+  padding: 4rem;
+  position: relative;
+  height: fit-content;
+}
+
+.modal.open {
+  display: flex;
+}
