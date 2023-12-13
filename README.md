@@ -26,7 +26,7 @@ Modal Styling: The modal is positioned in the center of the page and styled with
 JavaScript is employed to make the web page interactive. The JavaScript file adds event listeners to the button and the 'X' button within the modal. When the button is clicked, the modal is toggled to become visible. Clicking the 'X' button closes it. The use of the DOMContentLoaded event ensures that the JavaScript code runs after the DOM is fully loaded.
 
 ## How to Use
-1.Clone the repository.
-2.Open the index.html file in a web browser.
-3.Click the "Open Modal" button to trigger the appearance of the modal.
-4.Click the 'X' button or outside the modal to close it.
+1. Clone the repository.
+2. Open the index.html file in a web browser.
+3. Click the "Open Modal" button to trigger the appearance of the modal.
+4. Click the 'X' button or outside the modal to close it.
